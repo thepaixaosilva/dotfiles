@@ -1,0 +1,5 @@
+# Configuração principal do Sway
+# Os módulos são carregados em ordem numérica
+
+include $HOME/.config/sway/config.d/*.conf
+include /etc/sway/config.d/*
